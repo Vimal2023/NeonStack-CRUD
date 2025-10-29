@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ NeonStack CRUD
 
-## Getting Started
+NeonStack CRUD is a modern full-stack CRUD (Create, Read, Update, Delete) application built using **Next.js 15**, **PostgreSQL (Neon Database)**, and **Prisma ORM**.  
+It focuses on performance, scalability, and developer experience with clean architecture and reusable components.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend:** Next.js 15 (App Router), TypeScript, React 19  
+- **Styling:** Tailwind CSS + Shadcn/UI  
+- **Backend:** Prisma ORM, Next.js Server Actions  
+- **Database:** PostgreSQL (via Neon.tech)  
+- **Validation:** Zod + React Hook Form  
+- **Deployment:** Vercel (recommended)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Features
 
-## Learn More
+✅ Create, Read, Update, Delete users  
+✅ Server-side validation & error handling  
+✅ Modern UI with Shadcn UI components  
+✅ Type-safe backend using Prisma & TypeScript  
+✅ Clean folder structure for scalability  
+✅ Environment variable support (.env)  
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
